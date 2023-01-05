@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+@media(max-width:1000px){
+
+
+
+.box{
+display: flex;
+}
+
+button{
+padding: 1px;
+font-size: 10px;
+}
+
+
+}
+button{
+padding: 13px;
+border: none;
+background-image: linear-gradient(red,rgb(214, 87, 87),rgb(201, 86, 63));
+
+}
+button:hover{
+background-color: rgba(20, 15, 15, 0.189);
+}
+
+
+
+.container{
+    background-color: #333;
+    display: flex;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 21px;
+    padding: 16px 19px;
+
+}
+li:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+@media(max-width:1000px){
+    .container{
+        display: block;
+    }
+    #btn{
+        display: block;
+  color:white;
+  font-size: 23px;
+    }
+   
+    
+}
+#btn{
+display:block;
+color: white;
+
+}
+.flex{
+background-color: #333;
+}input{
+padding: 8px;
+font-size: 15px;
+background-color:burlywood;
+color: black;  
+margin: 12px;
+}
+.search{
+display: flex;
+}
+.name{
+display: block;
+}
+.con{
+    width:15%;
+    border: 2px solid black;
+}
+@media(max-width:1000px){
+    .con{
+        width: 50%;
+    overflow: hidden;
+    margin: 2px;
+    }
+    .con img{
+      width: 80%;  
+    }
+    .e img{
+    width: 50%;
+    border-radius: 50%;
+    height: 50%;
+}
+    .a1{
+        display: flex;
+    } .a2{
+        display: flex;
+    } .a3{
+        display: flex;
+    } .a4{
+        display: flex;
+    } .a5{
+        display: flex;
+    }
+}
+.e img{
+
+    width: 43%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 120px;
+    height: 200px;
+}
+input{
+        font-size: 16px;
+        width: 60%;
+        padding: 3px;
+        margin: 6px;
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+
+
+    }
+    .b img{
+        width: 50%;
+        height: 100px;
+    
+        border-radius: 130px;
+    }
+    .b{
+        display: flex;
+        margin: 2px;
+    }
+    .z{
+padding: 10% 10%;
+background-color: black;
+color: white;
+    }
+.s img{
+width: 100%;
+height: 100%;
+opacity: 1;
+}
+#d{
+color: white;
+font-size: 45px;
+padding-left: 54px;
+}
+#ghar img{
+width: 100%;
+height: 100%;
+}
+.q{
+
+align-items: center;
+justify-content: center;
+}
+.s{
+position: relative;
+}
+.me{
+position: absolute;
+
+left: 30%;
+top: 30%;
+
+background-color:;
+color:white;
+
+
+
+}
+.j{
+font-size: 30px;
+}
+#j{
+border: 3px solid black;
+background-color: #ca4545;
+color: white;
+display: inline-block;
+font-size: 23px;
+padding: 12px;
+}
+#j:hover{
+color:rgb(146, 110, 110);
+background-color: #110b0b;
+}
+.link{
+position: relative;
+background-color: rgb(136, 203, 202);
+color: rgb(5, 2, 2);
+height: 220px;
+}
+.link1{
+position: absolute;
+left: 7%;
+
+}
+.link1 p{
+font-size: 9px;
+}
+.link2{
+position: absolute;
+left: 45%;
+}
+.link3{
+position: absolute;
+left: 80%;
+}
+.lin img{
+width: 18%;
+height: 18%;
+border-radius: 30%;
+}
+#resume{
+position: relative;
+background-color: aqua;
+}
+#contact{
+background-color: rgb(13, 222, 222);
+}
+.e{
+padding-left: 30%;
+left: 40%;
+}
+.q{
+padding-left: 0%;
+padding-inline-start: 20%;
+padding-top: 6%;
+}
+.q h3:hover{
+background-color: #333;
+color: azure;
+}
+.ra li{
+color: black;
+font-size: 30px;
+background-color: antiquewhite;
+}
